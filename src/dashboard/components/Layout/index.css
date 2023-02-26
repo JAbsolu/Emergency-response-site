@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+body {
+  font-family: "Catamaran", sans-serif;
+  max-height: 100vh;
+  box-sizing: border-box;
+}
+
+.App .content {
+  padding: 20px;
+  margin-top: 45px;
+}
+
+.container {
+  overflow: hidden;
+  height: 100vh;
+}/*# sourceMappingURL=index.css.map */

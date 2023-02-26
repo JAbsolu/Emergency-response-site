@@ -1,0 +1,107 @@
+.home-page .img-bg {
+  border: 1px soild red;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../images/emergency7.jpeg");
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: 80%;
+  background-position: center;
+  margin: 30px auto;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.home-page .img-bg h3 {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  z-index: 3;
+}
+.home-page .img-bg .article {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.home-page .img-bg .article .form-btn {
+  padding: 25px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+.home-page .img-bg .article .form-btn h2 {
+  font-size: 22px;
+}
+.home-page .img-bg .article .form-btn div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home-page .img-bg .article .form-btn div button {
+  padding: 10px 18px;
+  margin: 10px;
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-family: "Catamaran", "sans-serif";
+  color: transparent;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.home-page .img-bg .article .form-btn div button:hover {
+  cursor: pointer;
+}
+.home-page .img-bg .article .form-btn div button#response {
+  background-color: #BD2323;
+  color: #f5f6fc;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.home-page .img-bg .article .form-btn div button#response:hover {
+  color: #FE0E29;
+  background-color: transparent;
+  border: 1px solid #FE0E29;
+  font-weight: bold;
+}
+.home-page .img-bg .article .form-btn div button#first-aid {
+  background-color: #050a30;
+  color: #f5f6fc;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.home-page .img-bg .article .form-btn div button#first-aid:hover {
+  color: #050a30;
+  background-color: transparent;
+  border: 1px solid #050a30;
+  font-weight: bolder;
+}
+.home-page .img-bg .article .form-btn div button#track {
+  background-color: rgb(223, 187, 140);
+  color: #f5f6fc;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.home-page .img-bg .article .form-btn div button#track:hover {
+  color: #050a30;
+  background-color: transparent;
+  border: 1px solid rgb(223, 187, 140);
+  font-weight: bolder;
+}
+.home-page .sub-cat {
+  height: 600px;
+}
+.home-page .sub-cat .image {
+  width: 38%;
+}
+.home-page .article {
+  display: flex;
+}
+.home-page .article #about {
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

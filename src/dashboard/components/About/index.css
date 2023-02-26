@@ -1,0 +1,28 @@
+.text-zone #about {
+  font-size: 1.5em;
+  font-family: "Catamaran", sans-serif;
+  margin: 20px;
+}
+.text-zone .about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 80%;
+  height: 600px;
+  align-items: center;
+}
+.text-zone .about-us .image img {
+  height: 500px;
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.text-zone .about-us .about-msg {
+  height: 400px;
+  align-items: center;
+}
+.text-zone .about-us .about-msg p {
+  line-height: 30px;
+}/*# sourceMappingURL=index.css.map */

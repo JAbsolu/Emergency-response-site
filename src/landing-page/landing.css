@@ -1,0 +1,190 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins&display=swap';
+html, .App {
+  background-color: #f4f6fa;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.text-size h2, h1, h2, h3, p, a {
+  font-family: "Poppins", sans-serif !important;
+  letter-spacing: -0.6px !important;
+  line-height: 2;
+  font-size: 100%;
+}
+
+.navbar {
+  padding: 0 1rem !important;
+  background-color: #b31010;
+}
+
+a.mr-4.navbar-brand {
+  color: #f4f6fa;
+}
+
+a.mx-2.nav-link {
+  color: #f4f6fa;
+  letter-spacing: -0.7px;
+}
+
+a.mx-2.nav-link:hover {
+  color: #ffffff;
+}
+
+a.nav-link {
+  color: #050a30;
+}
+
+a.nav-link:hover {
+  color: #b31010;
+}
+
+.BannerContainer {
+  padding-top: 2rem;
+  background-color: #f4f6fa;
+  height: auto !important;
+}
+
+.banner-row img {
+  max-width: 100%;
+}
+
+.container {
+  margin-top: 4rem !important;
+  height: auto !important;
+}
+
+.row img {
+  max-width: 100% !important;
+}
+
+.features-row {
+  background-image: url("../landing-page/images/banner2.jpg");
+  background-color: rgba(21, 21, 21, 0.8431372549);
+  color: #ffffff;
+  background-blend-mode: multiply;
+  padding: 3rem 0;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.container.py-5 {
+  background-image: url("../landing-page/images/banner2.jpg") !important;
+  background: rgba(21, 21, 21, 0.889);
+  background-blend-mode: multiply;
+  margin-right: 0;
+  margin-bottom: 3rem;
+  margin-left: 0;
+  min-width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.testimonial-heading {
+  margin-bottom: -2.5rem;
+  color: #ffffff;
+}
+
+.testimony-custom-css {
+  background-color: #ffffff;
+  color: #050a30 !important;
+  padding: 1rem;
+  margin-top: 1rem !important;
+  padding-top: 3rem;
+}
+
+.testimony-custom-css h5 {
+  color: #b31010;
+  font-weight: bold;
+}
+
+.rounded-circle {
+  height: 6rem;
+  width: 6em;
+}
+
+.text-red {
+  color: #d72222;
+  margin-left: 0.5rem;
+}
+
+.aboutUs-row-custom {
+  margin-bottom: 2rem;
+  margin-top: 6rem !important;
+}
+
+#missionStatement {
+  background-color: #ffffff;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#contact {
+  margin-bottom: 3rem;
+  margin-top: 6rem !important;
+  background-image: url("../landing-page/images/banner2.jpg");
+  background-color: rgba(0, 0, 0, 0.8392156863);
+  background-blend-mode: multiply;
+}
+
+.contact-col1 {
+  background-color: #ffffff;
+  padding: 1rem 3rem !important;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.contact-col2 {
+  padding: 1rem 3rem !important;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.form-control-custom {
+  height: 2.8rem;
+  border: solid #d0d0d0 !important;
+  margin-top: -0.3rem;
+}
+
+.form-control-custom-textarea {
+  height: 8rem !important;
+  margin-bottom: 1rem;
+}
+
+.sendform {
+  padding: 0.5rem 3rem !important;
+  font-size: 100%;
+  font-weight: bold !important;
+  background-color: #b31010 !important;
+  border: none !important;
+}
+
+.sendform:active {
+  transform: scaleX(1.03);
+  transition: 100ms ease-in-out;
+}
+
+.sendform:hover {
+  background-color: #e03636;
+}
+
+.contact-form-links {
+  text-decoration: none;
+}
+
+.contact-form-links:hover {
+  text-decoration: underline;
+  color: #d72222;
+}
+
+.login-link {
+  margin-right: 10rem;
+}
+
+footer {
+  background-color: #b31010;
+}/*# sourceMappingURL=landing.css.map */

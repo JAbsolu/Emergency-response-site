@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+.nav-bar2 {
+  background: #f5f6fc;
+  width: 100%;
+  height: 50px;
+  right: 10%;
+}
+.nav-bar2 nav {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  left: 10%;
+}
+.nav-bar2 nav a {
+  color: #050a30;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  padding: 15px;
+  transition: all 0.3s ease-out;
+}
+.nav-bar2 nav a:hover {
+  color: #FE0E29;
+  border-bottom: solid;
+}
+.nav-bar2 nav input {
+  position: relative;
+  display: inline-block;
+}
+.nav-bar2 nav .search-icon {
+  position: absolute;
+  right: 0;
+}/*# sourceMappingURL=index.css.map */

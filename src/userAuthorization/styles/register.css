@@ -1,0 +1,142 @@
+.Register {
+  font-family: "Catamaran", sans-serif;
+}
+
+#register-layout {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  min-height: 100vh;
+}
+
+#register-layout-first {
+  background-color: #BD2323;
+  background-image: url("../images/login-layout-img.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  text-align: center;
+  display: block;
+}
+
+#register-layout-first h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  letter-spacing: 5px;
+}
+
+#register-layout-form h2 {
+  color: #000000;
+  font-size: 1.7rem;
+}
+
+#register-layout-form {
+  background-color: #f5f6fc;
+  text-align: center;
+  margin: auto;
+  word-spacing: auto;
+  letter-spacing: 2px;
+  letter-spacing: -0.1px;
+}
+
+#register-form p {
+  letter-spacing: -0.1px;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+#register_form {
+  text-align: left;
+  color: #515151;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+#register_form input {
+  border: solid #7a7f98;
+  padding: 0.3rem 1rem;
+  width: 23rem;
+  height: 2rem;
+  font-size: 100%;
+}
+
+#register_form label {
+  font-weight: bold;
+}
+
+input#register_submit {
+  width: 25rem;
+  height: 2.9rem;
+  background-color: #BD2323;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input#register_submit:hover {
+  background-color: #dc3838;
+}
+
+.register-layout-form-div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+@media (max-width: 1129px) {
+  #register_form {
+    padding-left: 7rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 880px) {
+  #register-layout {
+    display: block;
+  }
+  #register_form {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+@media (max-width: 605px) {
+  #register-layout {
+    display: block;
+  }
+  #register_form {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 414px) {
+  #register-layout {
+    display: block;
+  }
+  #register_form {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #register-form p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 100%;
+  }
+  #register_form input {
+    padding: 0.3rem 1rem;
+    width: 19rem;
+    height: 1.8rem;
+    font-size: 100%;
+  }
+  input#register_submit {
+    width: 21.5rem;
+    height: 2.7rem;
+  }
+}
+@media (max-width: 375px) {
+  #register_form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}/*# sourceMappingURL=register.css.map */
