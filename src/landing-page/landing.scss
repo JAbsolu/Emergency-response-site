@@ -1,0 +1,204 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins&display=swap';
+
+// variables
+$primary-red: #b31010;
+$secondary-red:  #d72222;
+$medER-white: #ffffff;
+$medER-dark-grey: #6c6c6c;
+$medER-light-grey: #f4f6fa;
+$medER-black: #050a30;
+$font: 'Poppins', sans-serif;
+
+ 
+html , .App {
+    background-color: $medER-light-grey;
+    font-family: $font !important;
+}
+
+//fonts
+.text-size h2, h1, h2, h3, p, a {
+    font-family: $font !important;
+    letter-spacing: -.6px !important;
+    line-height: 2;
+    font-size: 100%;
+}
+
+// bootstrap custom styles styles
+.navbar {
+    padding: 0 1rem !important;
+    background-color: $primary-red;
+}
+
+a.mr-4.navbar-brand {
+    color: $medER-light-grey ;
+}
+
+a.mx-2.nav-link {
+    color: $medER-light-grey;
+    letter-spacing: -.7px;
+}
+
+a.mx-2.nav-link:hover {
+    color: $medER-white;
+}
+
+a.nav-link {
+    color: $medER-black;
+}
+
+a.nav-link:hover {
+    color: $primary-red;
+}
+
+.BannerContainer {
+    padding-top: 2rem;
+    background-color: $medER-light-grey;
+    height: auto !important;
+}
+
+.banner-row img{
+    max-width: 100%;
+}
+
+.container {
+    margin-top: 4rem !important;
+    height: auto !important;
+}
+
+.row img {
+    max-width: 100% !important;
+}
+
+.features-row {
+    background-image: url('../landing-page/images/banner2.jpg');
+    background-color: #151515d7;
+    color: $medER-white;
+    background-blend-mode: multiply;
+    padding: 3rem 0;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.container.py-5 { //testimonial component style
+    background-image: url('../landing-page/images/banner2.jpg') !important;
+    background: rgba(21, 21, 21, 0.889);  
+    background-blend-mode: multiply;
+    margin-right: 0;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    min-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.testimonial-heading {
+    margin-bottom: -2.5rem;
+    color: $medER-white;
+}
+
+.testimony-custom-css {
+    background-color: $medER-white;
+    color: $medER-black !important;
+    padding: 1rem;
+    margin-top: 1rem !important;
+    padding-top: 3rem;
+}
+
+.testimony-custom-css h5 {
+    color: $primary-red;
+    font-weight: bold;
+}
+
+.rounded-circle { //testimony image
+    height: 6rem;
+    width:  6em;
+}
+
+.text-red {
+    color: $secondary-red;
+    margin-left: .5rem;
+}
+
+.aboutUs-row-custom {
+    margin-bottom: 2rem;
+    margin-top: 6rem !important;
+}
+
+#missionStatement {
+    background-color: $medER-white;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#contact {
+    margin-bottom: 3rem;
+    margin-top: 6rem !important;
+    background-image: url('../landing-page/images/banner2.jpg');
+    background-color: #000000d6;
+    background-blend-mode: multiply;
+}
+
+.contact-col1 {
+    background-color: $medER-white;
+    padding: 1rem 3rem !important;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.contact-col2 {
+    padding: 1rem 3rem !important;
+}
+
+.form-label {
+    font-weight: bold;
+    color: $medER-white;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.form-control-custom {
+    height: 2.8rem;
+    border: solid #d0d0d0 !important;
+    margin-top: -.3rem;
+}
+
+.form-control-custom-textarea {
+    height: 8rem !important;
+    margin-bottom: 1rem;
+}
+
+.sendform {
+    padding: .5rem 3rem !important;
+    font-size: 100%;
+    font-weight: bold !important;
+    background-color: $primary-red !important;
+    border: none !important;
+}
+
+.sendform:active {
+    transform: scaleX(1.03);
+    transition: 100ms ease-in-out;
+}
+
+.sendform:hover {
+    background-color: #e03636;
+}
+
+.contact-form-links {
+    text-decoration: none;
+}
+
+.contact-form-links:hover {
+    text-decoration: underline;
+    color: $secondary-red;
+}
+
+
+.login-link {
+    margin-right: 10rem;
+}
+
+footer {
+    background-color: $primary-red;
+}

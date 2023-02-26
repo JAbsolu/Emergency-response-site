@@ -1,0 +1,53 @@
+.text-zone {
+    // text-align: center;
+    // margin: 50px auto;
+
+    #about {
+        font-size: 1.5em;
+        font-family: "Catamaran", sans-serif;
+        margin: 20px;
+    }
+
+    .about-us {
+        display: flex;
+        // flex: 1;
+        // flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        width: 80%;
+        height: 600px;
+        align-items: center;
+        // margin: 30px auto;
+        // background-color: rgba(247, 238, 238, 0.774);
+        
+
+        .image {
+            // height: 200px;
+
+            img {
+                height: 500px;
+                width: 500px;
+                object-fit: cover;
+                border-radius: 10px;
+                // z-index: 1;
+                // width: 90%;
+                // height: auto;
+                // object-fit: cover;
+                // position: relative;
+            }
+        }
+
+        .about-msg {
+            height: 400px;
+            align-items: center;
+            p {
+                line-height: 30px;
+                // align-items: center;
+                // text-align: justify;
+                // text-align: center;
+
+            }
+        }
+    }
+}
