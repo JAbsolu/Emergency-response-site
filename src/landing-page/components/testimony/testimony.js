@@ -17,7 +17,7 @@ const TestimonySlider = () => {
       <MDBCarousel showControls dark>
         <MDBCarouselInner>
           <MDBCarouselItem className="active">
-            <h2 className="text-center testimonial-heading">Our Users<span className="text-red">Testimonies</span></h2>
+            <h2 className="text-center testimonial-heading h2">Our Users<span className="text-red">Testimonies</span></h2>
             <MDBContainer>
               <MDBRow className="text-center">
               <MDBCol lg="4" className="mb-5 mb-md-0  testimony-custom-css">
@@ -73,7 +73,7 @@ const TestimonySlider = () => {
             </MDBContainer>
           </MDBCarouselItem>
           <MDBCarouselItem>
-          <h2 className="text-center testimonial-heading">Our Users<span className="text-red">Testimonies</span></h2>
+          <h2 className="text-center testimonial-heading h2">Our Users<span className="text-red">Testimonies</span></h2>
             <MDBContainer>
               <MDBRow className="text-center">
                 <MDBCol lg="4" className="mb-5 mb-md-0 testimony-custom-css">

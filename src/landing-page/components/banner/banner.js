@@ -8,7 +8,7 @@ const Banner = () => {
         <Container className='BannerContainer'>
             <Row className="d-flex align-items-end justify-content-end banner-row">
                 <Col md={7}>
-                    <h1><b>Welcome to <span className="text-red">MedER</span></b></h1>
+                    <h1 className='h1 fw-bold'>Welcome to <span className="text-red">MedER</span></h1>
                     <WelcomeText />
                     <div className="design-bar"></div>
                 </Col>

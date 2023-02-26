@@ -1,10 +1,9 @@
-#login-layout {
+.login-layout {
   display: grid;
   grid-template-columns: 45% 55%;
   min-height: 100vh;
 }
-
-#layout-first {
+.login-layout .layout-first {
   background-color: #BD2323;
   background-image: url("../images/login-layout-img.jpg");
   background-repeat: no-repeat;
@@ -12,14 +11,12 @@
   text-align: center;
   display: block;
 }
-
-#layout-first h1 {
+.login-layout .layout-first h1 {
   font-size: 3rem;
   color: #ffffff;
   letter-spacing: 5px;
 }
-
-#layout-form {
+.login-layout .layout-form {
   background-color: #f5f6fc;
   text-align: center;
   margin: auto;
@@ -27,26 +24,23 @@
   letter-spacing: 2px;
 }
 
-.login-form {
-  text-align: left;
-  align-items: center;
-}
-
-.login-form-container h2 {
+.login-form-container .login-form-container h2 {
   font-size: 2em;
   margin-bottom: 0;
   padding-bottom: 0;
   color: #000000;
 }
-
-.login-form-container p {
+.login-form-container .login-form-container p {
   padding: 0;
   margin-top: 0;
   margin-bottom: 3rem;
   font-size: 100%;
 }
-
-input {
+.login-form-container .login-form {
+  text-align: left;
+  align-items: center;
+}
+.login-form-container .login-input {
   width: 23rem;
   height: 2rem;
   padding: 0.3rem 1rem;
@@ -56,16 +50,13 @@ input {
   font-size: 100%;
   border: solid #7a7f98;
 }
-
-label {
+.login-form-container .labels {
   letter-spacing: auto;
   font-weight: bold;
   color: #515151;
 }
-
-#login {
-  width: 25rem;
-  height: 2.9rem;
+.login-form-container .login {
+  width: 23rem;
   background-color: #BD2323;
   font-size: 1.1rem;
   font-weight: bold;
@@ -73,39 +64,36 @@ label {
   border: none;
   cursor: pointer;
 }
-
-a {
+.login-form-container .text-red {
   color: #BD2323;
 }
-
-a:hover {
+.login-form-container .links:hover {
   text-decoration: underline;
 }
-
 @media (max-width: 700px) {
-  #login-layout {
+  .login-form-container #login-layout {
     display: block;
   }
-  #layout-form {
+  .login-form-container #layout-form {
     margin-top: 4rem;
     padding-top: 4rem;
   }
-  .login-form {
+  .login-form-container .login-form {
     text-align: center;
   }
-  .login-form-container h2 {
+  .login-form-container .login-form-container h2 {
     font-size: 1.5rem;
   }
-  .login-form-container p {
+  .login-form-container .login-form-container p {
     margin-bottom: 0;
   }
-  label {
+  .login-form-container label {
     display: none;
   }
-  input {
+  .login-form-container input {
     margin-bottom: 0;
   }
-  #login {
+  .login-form-container .login {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }

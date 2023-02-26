@@ -38,7 +38,7 @@ function ContactForm() {
     <Container id='contact'>
         <Row>
             <Col md={6} className="contact-col1">
-                <h2>Get in<span className='text-red'>contact</span> with us</h2>
+                <h2 className='h2'>Get in<span className='text-red'>contact</span> with us</h2>
                 <p>
                     Fill out this form to write us a quick message,
                     We will get back to you within the next few hours.

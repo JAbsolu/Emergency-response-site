@@ -12,7 +12,7 @@ export const WelcomeText = () => {
 export const FastResponseText = () => {
     return (
         <div>
-            <h3>One Touch Emergency<span className="text-red">Call Feature</span></h3>
+            <h3 className="h3">One Touch Emergency<span className="text-red">Call Feature</span></h3>
             <p className="MedER-benefits-p">
                 The app allows users to quickly and easily notify emergency services
                  of an incident, which can significantly reduce the time it takes 
@@ -25,7 +25,7 @@ export const FastResponseText = () => {
 export const LocationDetectionText = () => {
     return (
         <div>
-            <h3>Accurate Location <span className='text-red'>Detection</span></h3>
+            <h3 className="h3">Accurate Location <span className='text-red'>Detection</span></h3>
             <p className="MedER-benefits-p">
                 the app is equipped with GPS technology that allows 
                 emergency services to more accurately pinpoint the 
@@ -40,7 +40,7 @@ export const LocationDetectionText = () => {
 export const MissionStatement = () => {
     return (
         <div id="missionStatement">
-            <h1 className='text-left' id="aboutUs"> Our <span className="text-red"> Mission </span></h1>
+            <h2 className='text-left h2' id="aboutUs"> Our <span className="text-red"> Mission </span></h2>
             <p>
                 MedER aims to provide quick and efficient assistance 
                 during emergency situations by connecting users to local emergency services 
