@@ -44,7 +44,7 @@
   align-items: center;
 }
 .login-form-container .login-input {
-  width: 23rem;
+  width: 19rem;
   padding: 0.3rem 1rem;
   margin-bottom: 1rem;
   border: solid 1px;
@@ -58,9 +58,9 @@
   color: #515151;
 }
 .login-form-container .login {
-  width: 23rem;
+  width: 19rem;
   background-color: #BD2323;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #ffffff;
   border: none;
@@ -82,13 +82,7 @@
     padding-top: 4rem;
   }
   .login-form {
-    text-align: center;
-  }
-  .login-form-container h2 {
-    font-size: 1.5rem;
-  }
-  .login-form-container p {
-    margin-bottom: 0;
+    text-align: center !important;
   }
   label {
     display: none;

@@ -107,6 +107,7 @@
   #register_form {
     padding-left: 5rem;
     padding-right: 5rem;
+    text-align: center;
   }
 }
 @media (max-width: 414px) {
@@ -116,6 +117,7 @@
   #register_form {
     padding-left: 2rem;
     padding-right: 2rem;
+    text-align: center;
   }
   #register-form p {
     padding-bottom: 0;
@@ -123,13 +125,11 @@
     font-size: 100%;
   }
   #register_form input {
-    padding: 0.3rem 1rem;
     width: 19rem;
-    height: 1.8rem;
     font-size: 100%;
   }
   input#register_submit {
-    width: 21.5rem;
+    width: 19rem;
     height: 2.7rem;
   }
 }

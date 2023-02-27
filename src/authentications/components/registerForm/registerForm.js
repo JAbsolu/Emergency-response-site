@@ -29,7 +29,7 @@ const RegisterForm = () => {
                     <br />
                     <input className="p-2 rounded" type="password" name="password confirmation" id="registerPasswd" placeholder="Confirm password"/>
                     <br></br>
-                    <input className="p-3 rounded mt-3" id='register_submit' type="submit" value="Register" />
+                    <input className="p-2 rounded mt-4" id='register_submit' type="submit" value="Register" />
             </form>
         </div>
     )
