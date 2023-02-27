@@ -50,12 +50,12 @@ function ContactForm() {
                 <Form onSubmit={handleSubmit} target="#" method='post'>
                     <Form.Group controlId="formName">
                       <Form.Label>Name</Form.Label>
-                      <Form.Control className='form-control-custom' type="text" placeholder="Enter name" />
+                      <Form.Control className='form-control-custom mb-3' type="text" placeholder="Enter name" />
                     </Form.Group>
 
                     <Form.Group controlId="formEmail">
                       <Form.Label>Email Address</Form.Label>
-                      <Form.Control className='form-control-custom' type="email" placeholder="Enter email" />
+                      <Form.Control className='form-control-custom mb-3' type="email" placeholder="Enter email" />
                     </Form.Group>
 
                     <Form.Group controlId="formMessage">
@@ -68,8 +68,9 @@ function ContactForm() {
                     </Button>
                 </Form>
                 <br/>
-                <span className='text-light login-link'>Already a member? <a href="../../authorizationPages/login/login.js" className='text-red contact-form-links'>Log in</a></span>
-                <span className='text-light register-link'>New to MedER? <a href="../../authorizationPages/register/register.js" className='text-red contact-form-links'>Register</a></span>
+                <span className='text-light'>Already a member? <a href="/login" className='text-red contact-form-links'>Log in</a></span>
+                <br/>
+                <span className='text-light'>New to MedER? <a href="/register" className='text-red contact-form-links'>Register</a></span>
             </Col>
         </Row>
     </Container>
