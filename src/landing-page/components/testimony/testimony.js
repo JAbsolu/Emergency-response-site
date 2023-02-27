@@ -20,7 +20,7 @@ const TestimonySlider = () => {
             <h2 className="text-center testimonial-heading h2">Our Users<span className="text-red">Testimonies</span></h2>
             <MDBContainer>
               <MDBRow className="text-center">
-              <MDBCol lg="4" className="mb-5 mb-md-0  testimony-custom-css">
+              <MDBCol md="6" className="mb-5 mb-md-0  testimony-custom-css">
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp"
@@ -36,7 +36,7 @@ const TestimonySlider = () => {
                       The team contacted me within seconds and dispatched help immediately.
                     </p>
                 </MDBCol>
-                <MDBCol lg="4" className="mb-5 mb-md-0 testimony-custom-css">
+                {/* <MDBCol lg="4" className="mb-5 mb-md-0 testimony-custom-css">
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
@@ -52,8 +52,8 @@ const TestimonySlider = () => {
                     The emergency button feature allows for quick and easy 
                     communication with dispatch.
                   </p>
-                </MDBCol>
-                <MDBCol lg="4" className="d-none d-lg-block testimony-custom-css">
+                </MDBCol> */}
+                <MDBCol md="6" className="d-none d-lg-block testimony-custom-css">
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp"
@@ -76,7 +76,7 @@ const TestimonySlider = () => {
           <h2 className="text-center testimonial-heading h2">Our Users<span className="text-red">Testimonies</span></h2>
             <MDBContainer>
               <MDBRow className="text-center">
-                <MDBCol lg="4" className="mb-5 mb-md-0 testimony-custom-css">
+                <MDBCol md="6" className="mb-5 mb-md-0 testimony-custom-css">
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp"
@@ -85,13 +85,13 @@ const TestimonySlider = () => {
                       height="150"
                     />
                   </div>
-                  <h5 className="mb-3">John Doe</h5>
+                  <h5 className="mb-3">Alexander</h5>
                   <p className="px-xl-3">
                     <MDBIcon fas icon="quote-left" className="pe-2" />
                     My elderly mother lives alone, and I worry about her health. 
                     This app's emergency contact feature gives me peace of mind that she can get help quickly if she needs it.</p>
                 </MDBCol>
-                <MDBCol lg="4" className="d-none d-lg-block testimony-custom-css">
+                <MDBCol md="6" className="d-none d-lg-block testimony-custom-css">
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp"
@@ -106,7 +106,7 @@ const TestimonySlider = () => {
                     This app is a lifesaver! It helped me get immediate medical attention when I had a sudden heart attack.
                   </p>
                 </MDBCol>
-                <MDBCol lg="4" className="d-none d-lg-block testimony-custom-css">
+                {/* <MDBCol lg="4" className="d-none d-lg-block testimony-custom-css">
                   <div className="d-flex justify-content-center mb-4">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp"
@@ -120,7 +120,7 @@ const TestimonySlider = () => {
                     <MDBIcon fas icon="quote-left" className="pe-2" />
                     I had to call an ambulance for my son who was having an asthma attack. This app made the process so much faster and less stressful for me.
                   </p>
-                </MDBCol>
+                </MDBCol> */}
               </MDBRow>
             </MDBContainer>
           </MDBCarouselItem>

@@ -147,13 +147,12 @@ a.nav-link:hover {
 .form-control-custom {
   height: 2.8rem;
   border: solid #d0d0d0 !important;
-  /* margin-top: -0.3rem; */
+  margin-top: -0.3rem;
 }
 
 .form-control-custom-textarea {
   height: 8rem !important;
-  overflow-y: scroll;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 
 .sendform {

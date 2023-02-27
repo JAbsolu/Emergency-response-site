@@ -44,9 +44,8 @@
   align-items: center;
 }
 .login-form-container .login-input {
-  width: 19rem;
+  width: 23rem;
   padding: 0.3rem 1rem;
-  margin-bottom: 1rem;
   border: solid 1px;
   border-radius: 5px;
   font-size: 100%;
@@ -58,9 +57,9 @@
   color: #515151;
 }
 .login-form-container .login {
-  width: 19rem;
+  width: 23rem;
   background-color: #BD2323;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #ffffff;
   border: none;
