@@ -9,8 +9,8 @@ import Home from './dashboard/components/Home'
 import Layout from './dashboard/components/Layout'
 import About from './dashboard/components/About';
 import Contact from './dashboard/components/Contact';
-import Login from './userAuthorization/login';
-import Register from './userAuthorization/register';
+import Login from './authentications/login';
+import Register from './authentications/register';
 import {  Route, Routes} from 'react-router-dom';
 
 

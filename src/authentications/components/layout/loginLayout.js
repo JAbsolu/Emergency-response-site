@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Layout = () => {
     return (
-        <div className="login-layout">
-            <div className="layout-first">
+        <div id="login-layout">
+            <div id="layout-first">
                 <h1>MedER</h1>
             </div>
             <div className="layout-form">
