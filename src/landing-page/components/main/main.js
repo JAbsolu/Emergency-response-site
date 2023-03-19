@@ -8,7 +8,6 @@ import ContactForm from '../contact/contact';
 
 const MainSection = () => {
     return (
-        <div>
             <Container className='main-component'> 
                 <Row className='features-row'>
                     <Col md={6}>
@@ -29,7 +28,6 @@ const MainSection = () => {
                 </Row>
                 <ContactForm />
             </Container>
-        </div>
     );
 };
 
